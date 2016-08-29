@@ -1,0 +1,58 @@
+.body{
+    width: 100%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    display: inline-block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 33%;
+    float: left;
+    /*background-color: #0a0a0a;*/
+}
+
+a{
+    text-decoration: none;
+}
+
+.showmore{
+    margin: 5px auto;
+    text-align: center;
+
+}
+
+span{
+    margin: 5px auto;
+    border: 1px solid #0a0a0a;
+}
+
+.clearfloat{
+    zoom:1;
+}
+
+.clearfloat:after{
+    content: "";
+    display: block;
+    clear:both;
+    visibility: hidden;
+    height: 0;
+    line-height:0;
+}
+
+.promoted{
+
+}
+
+.colorYellow{
+    color: gold;
+}
+
+.colorRed{
+    color: aqua;
+}
