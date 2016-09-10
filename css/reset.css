@@ -1,0 +1,14 @@
+/*整体页面CSS*/
+*{ margin:0px;
+    padding:0px;
+}
+/*控制整体*/
+body{ width:100%;
+    height:100%;
+    font:12px "宋体", Helvetica, sans-serif;
+    background: #fff;
+}
+/* 设置所有图片的边框为0*/
+img {
+    border:0;
+}
