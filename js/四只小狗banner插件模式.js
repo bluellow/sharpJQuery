@@ -2,7 +2,6 @@
  * Created by Administrator on 2016/9/2.
  */
 (function($){
-
     $.fn.silder =function(option){
         option = $.extend({},$.fn.silder.option,option);
         return this.each(function(){
@@ -55,12 +54,4 @@
     };
 })(jQuery);
 
-$(document).ready(function(){
-    $('#gou').silder({
-        parentContainerId:"gou",
-        bannerInfoId : "banner_info",
-        btnUlId : "list",
-        banner_listId :"banner_list"
-    });
 
-});

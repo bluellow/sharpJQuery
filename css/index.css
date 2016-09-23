@@ -1,0 +1,24 @@
+/*@CHARSET "UTF-8";*/
+
+*{margin: 0;padding: 0}
+ol,ul{ list-style:none;}
+
+/* 背景 */
+.sheader .app .app_bg,.sheader .shopp_car .num,.sproduct .tit a,.sproduct_r_box .nav li,.special_r .tit li .icon,.shot_list_box li .hot_l i,.sbanner_bt .prev,.special_l_box .btn .prev,.special_l_box .btn .next,.market_sbanner .nav li, .safety .icon,.sbanner_side  .login .login_btn,.sbanner_side  .login .regis_btn,.sbanner_bt .next,.sbanner_box .nav li,.sheader .shopp_car .icon,.look_order,.snav_protype .tit .icon,.snav_product dt .down_icon,.snav_product dt .down_icon_on{ background:url(../img/index/index_icon.png) no-repeat; }
+
+
+
+
+
+/* banner */
+.sbanner{ width:670px; height:402px; margin:12px 0 0 223px; float:left;  }
+.sbanner_box{  width:670px; height:240px; overflow: hidden; position:relative; }
+.sbanner_box .box_ul{ position:absolute;top:0px; left:0px; height:240px; }
+.sbanner_box li{width:670px;  height:240px;  float:left;   }
+.sbanner_box li img{width:670px;  height:240px; vertical-align:middle;}
+.sbanner_box .nav{position: absolute; width:72px; height:13px; bottom:8px; right:20px; z-index:999;  }
+.sbanner_box .nav li{ width:13px; height:13px; margin-right:5px; background-position:-105px -25px; }
+.sbanner_box .nav li a{ display: block;  width:13px; height:13px; }
+.sbanner_box .nav li.on{ background-position:-121px -25px; }
+
+
